@@ -20,7 +20,6 @@ order_payments as (
     group by 1
 )
 
-
 select
     o.order_id,
     o.customer_id,
