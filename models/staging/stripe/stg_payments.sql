@@ -1,3 +1,4 @@
+
 select
     id as payment_id,
     orderid as order_id,
@@ -6,4 +7,4 @@ select
     amount,
     created as created_date
 
-from raw.stripe.payments
+from raw.stripe.payment
